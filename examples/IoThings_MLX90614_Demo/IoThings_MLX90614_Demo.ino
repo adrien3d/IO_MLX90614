@@ -5,7 +5,7 @@
 
   These sensors use I2C, 2 pins are required to interface.
 
-  Written by Adrien Chapelet for Iotech
+  Written by Adrien Chapelet for IoThings
  ***************************************************************************/
 
 #include <Wire.h>
@@ -16,7 +16,7 @@ IO_MLX90614 mlx = IO_MLX90614();
 void setup() {
   Serial.begin(9600);
 
-  Serial.println("IoTech MLX90614 test");  
+  Serial.println("IoThings MLX90614 test");  
 
   mlx.begin();  
 }
